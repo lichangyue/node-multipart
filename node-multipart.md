@@ -78,5 +78,6 @@ Content-Type： multipart/related;
                  type="multipart/alternative";
                  boundary="{分段标识}"
 ## http协议对mime类型有详细描述，multipart/....是单个消息头包含多个消息体的解决方案。multipart媒体类型对发送非文本的各媒体类型是有用的。 
+<img src="
 
                  
