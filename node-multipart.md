@@ -83,7 +83,7 @@ Content-Type： multipart/related;
 <img src="image/2.png">
 <img src="image/3.png">
 因为代码实现的是一种功能  多数据请求功能
-`'use strict'   使用严格模式   
+`<'use strict'   使用严格模式   
 
 var uuid = require('uuid')  //单独运行代码 不会有成效 因为代码没有安装其他功能  
 var CombinedStream = require('combined-stream') 一个  combined-stream
@@ -194,7 +194,7 @@ Multipart.prototype.onRequest = function (options) {
   self.body = self.build(parts, chunked)
 }
 
-     exports.Multipart = Multipart`
+     exports.Multipart = Multipart`>
 
 
 
