@@ -1,6 +1,6 @@
 # node-multipart
 # 项目 request-multipart
-对于readme 关于multipart/form-data与multipart/related 的翻译
+对于readme中关于multipart/form-data与multipart/related 的翻译
 ## multipart/form-data
 最早的HTTP POST是不支持文件上传的，给编程开发带来很多问题。但是在1995年，ietf出台了rfc1867,也就是《RFC 1867 -Form-based File Upload in HTML》，用以支持文件上传。所以Content-Type的类型扩充了multipart/form-data用以支持向服务器发送二进制数据。因此发送post请求时候，表单<form>属性enctype共有二个值可选，这个属性管理的是表单的MIME编码：
  ①application/x-www-form-urlencoded(默认值)
