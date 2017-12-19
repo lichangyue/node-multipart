@@ -148,7 +148,7 @@ Multipart.prototype.setHeaders = function (chunked) {
     }
   }
 }
-
+//数据提交
 Multipart.prototype.build = function (parts, chunked) {
   var self = this
   var body = chunked ? new CombinedStream() : []
@@ -183,7 +183,7 @@ Multipart.prototype.build = function (parts, chunked) {
 
   return body
 }
-//主体
+//建立数据主体 post数据 多路径传输
 Multipart.prototype.onRequest = function (options) {
   var self = this
 
